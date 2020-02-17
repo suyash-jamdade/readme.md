@@ -1,0 +1,71 @@
+
+body{	
+ 	margin: 0;
+ 	padding: 0;
+   	display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Ink Draft;
+    font-size: 20px;
+/*    background: linear-gradient(rgb(0, 12, 121),#f00000);*/
+    animation:bgcolor 5s ease infinite;
+    /*animation-direction:alternate-reverse;
+    animation-duration:5s;*/
+    /*animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;*/
+    animation-timing-function:ease-in-out;
+} 
+.container h2{
+	margin-top: 30px;
+	color:#000000;
+	font-size:30px;
+	letter-spacing: 16px;
+	text-align: center;
+}
+.article{
+	background-color:#000000; 
+	margin-top:50px;
+	padding:10px;
+	display: block;
+	position:relative;
+	align-items: center;
+	top:calc(50% -150px);
+	left:calc(50% -100px);
+	a/*nimation-timing-function: ease;*/
+	/*transform: perspective(100px);
+	transform-style: preserve-3d;*/
+	font-family:monospace;
+	font-weight:normal;
+	height:200px;
+	width:500px;
+	box-shadow: -10px 50px 50px rgba(0,0,0,.5);
+	box-sizing: border-box;
+	
+}
+.article:hover{
+	align-content: center;
+	width:900px;
+	height:500px;
+	transition: 2s ease-in;
+}
+.article .article1{
+	background:url("../images/snapchat.jpeg");
+}
+
+@keyframes bgcolor{
+	0%{
+ background: linear-gradient(#ff9999,#99ffb3);
+	}
+	30%{
+background:	linear-gradient(#ffcc99	 ,#99ffe6);
+	}
+	60%{
+background: linear-gradient(#ffff99 ,#99e6ff);
+	}
+	100%{
+background: linear-gradient(#ccff99 ,#99b3ff);
+	}
+
+}

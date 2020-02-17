@@ -1,0 +1,73 @@
+*{
+	margin:0;
+	padding:0;
+	}
+body{	
+background-image:linear-gradient(rgba(0,0,0,0.5),
+rgba(0,0,0,0.5)),url('../images/background6.jpeg');
+background-repeat:no-repeat;
+height:100vh;
+background-size:cover;
+background-position:center;
+}  
+
+.main-nav{
+    float:right;
+    list-style:none;
+    margin-top:30px;
+    margin-right:10px;
+    display:inline-block;
+}
+.main-nav li{ 
+	   display:inline-block;
+	   margin-right: 10px;
+}
+.main-nav li a{
+	color:white;
+	border:1px solid white;
+	text-decoration:none;
+	padding:5px 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size:17px;
+	transition:1s ease;
+}
+.main-nav li.active a{
+	border:1px solid white;
+	background-color:white;
+	color:black;
+}
+.main-nav li a:hover{
+	border:1px solid white;
+	background-color:white;
+	color:black;
+}
+.title {
+	position:absolute;
+	top:30%;
+	left:36%;
+    font-family: "Allerta Stencil", Sans-serif;
+	color:white;
+	font-size:70px;
+}
+.btn{
+	position :absolute;
+	top:50%;
+	left:44%;
+	size:80px;
+	border:1px solid #ffff99;
+	border-radius:20px;
+	padding:10px;
+	font-family: Courier, monospace;	
+	font-weight: bold;
+	font-size:20px;
+	transition:width 2s ease;
+	color:white;
+	transition:1s ease;
+	text-decoration: none;
+}
+.btn:hover{
+	cursor: pointer;
+	background-color:#ffe6b3;
+	color:	#ff6666;
+	text-decoration: none;
+}
